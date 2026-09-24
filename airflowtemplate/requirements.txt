@@ -1,0 +1,22 @@
+# Airflow
+apache-airflow==2.8.1
+apache-airflow-providers-postgres==5.10.0
+apache-airflow-providers-amazon==8.17.0
+
+# Data Processing
+pandas==2.1.4
+numpy==1.26.3
+
+# Machine Learning
+catboost==1.2.2
+scikit-learn==1.4.0
+
+# AWS
+boto3==1.34.34
+botocore==1.34.34
+
+# Database
+psycopg2-binary==2.9.9
+
+# Utilities
+python-dotenv==1.0.0
