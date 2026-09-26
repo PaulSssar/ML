@@ -91,6 +91,8 @@ def task_download_process_upload(**context):
     df_hot.to_csv(out, index=False)
     s3.put_object(Bucket=bucket, Key=processed_key, Body=out.getvalue().encode("utf-8"))
 
+    return processed_key
+
 
 with DAG(
     dag_id="S3_dag",
